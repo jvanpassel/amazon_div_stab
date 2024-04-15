@@ -1,3 +1,10 @@
+library(raster)
+library(sf)
+library(nlme)
+library(piecewiseSEM)
+library(MuMIn)
+library(rgdal)
+library(MASS)
 
 ## Load alpha stability: EVI TAC trend
 evi<-brick('evi_01_19_masked.tif')
